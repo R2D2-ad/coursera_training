@@ -1,4 +1,4 @@
-/*Stylesheet*/
+/******* STYLESHEET *******/
 body {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 20px;
@@ -6,23 +6,16 @@ body {
     margin: 0px;
 }
 
-/*****Header******/
+/***** HEADER ******/
 #header-nav {
     border: 0px;
     border-radius: 0px;
     background-color:lightskyblue;
     margin: 0px; 
-    border: 0px solid black;
+    border: 2px solid black;
     padding-bottom: 0px;
     padding-top: .1em;
 }
-
-/* #nav-menu {
-    margin-left: -14.9px;
-} */
-/* #header-nav {
-    border: 5px solid blue;
-} */
 
 .navbar-brand {
     padding-top: 15px;
@@ -32,7 +25,6 @@ body {
     color: black;
     margin-top: 0px;
     margin-bottom: 0px;
- /*    margin-left: -75px; */
     font-weight: bold;
 }
 
@@ -47,13 +39,14 @@ body {
 }
 #nav-list {
     margin-top: 0px;
-    border: 2px solid black;
+    border: 1px solid black;
     margin-bottom: 0px;
-    margin-top: -5px;
+    margin-top: -4px;
 }
 
 .navbar-header {
-    border: 2px solid black;
+    border: 1px solid black;
+    margin-top: -5px;
 }
 
  #nav-menu {
@@ -70,14 +63,9 @@ body {
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
-
-/* #header-nav {
-    border: 2px solid black;
-    height: auto;
-} */
 
 .navbar-header button.navbar-toggle {
     clear: both;
@@ -112,9 +100,6 @@ body {
 }
 
 .jumbotron h3 {
-   /*  text-align: center;
-    position: absolute;
-    top: 10px; */
     margin: auto;
     font-size: 1em;
     font-weight: bold;
@@ -126,10 +111,6 @@ body {
 #main-content {
     margin: 2em;
 }
-/* #main-content #box1 {
-    margin-left: -8px;
-    margin-right: 4px;
-} */
 
 .link {
     color:lightblue;
@@ -142,13 +123,9 @@ body {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
     #main-content #box1, #box2, #box3 {
-        border: 0px solid black;
-       /*  margin-left: 0px;
-        margin-right: 0px; */      
+        border: 0px solid black;      
     }
-   /*   #box1 {
-        margin-left: 20px;
-    } */
+
     .navbar-brand h1 {
         /* margin-left: -70px; */
     }
