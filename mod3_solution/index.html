@@ -1,9 +1,86 @@
 <!Doctype html>
 <html lang="en">
     <head>
-
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Module 3, Food, LLC</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet">
     </head>
-    <body>
 
+    <body>
+        <header>
+            <nav id="header-nav" class="navbar">  <!--class="navbar navbar-default-->
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <div class="navbar-brand" class="pull-left">
+                            <a href="index.html"><h1>Food,LLC</h1></a>
+                        </div>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>  <!--navbar-toggle defines the position of the button-->
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    
+                    <div id="collapsable-nav" class="collapse navbar-collapse">
+                        <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+                            <li>
+                                <a href="#box1">
+                                <span id="nav-menu" class="visible-xs text-center">Chicken</span></a>
+                            </li>
+                            <li>
+                                <a href="#box2">
+                                <span id="nav-menu" class="visible-xs text-center"> Beef</span></a>
+                            </li>
+                            <li>
+                                <a href="#box3">
+                                <span id="nav-menu" class="visible-xs text-center"> Sushi</span></a>
+                            </li>
+                        </ul><!-- #nav-list -->
+                    </div> <!-- .collapse .navbar-collapse -->
+                </div> <!-- .container -->
+            </nav> <!-- #header-nav -->
+
+              <!--   <div class="container heading">
+                <h2>Our Menu</h2>
+                </div> -->
+
+            <div id="main-content">
+                <div class="text-center"><p><h2>Our Menu</h2></p></div>  <!--text-center class Bootstrap-->
+                <div id="box1" class="col-md-6 col-xs-12  jumbotron container"><h3 class="text-center">Chicken</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat magna tincidunt massa dictum faucibus. Proin vel nulla pellentesque massa placerat tempus. 
+                    Suspendisse facilisis tellus nec egestas pulvinar. Nullam imperdiet ante dictum, ultrices libero id, eleifend erat. 
+                    Nunc vel lorem dolor. Integer ipsum augue, congue sit amet porta et, egestas eu nulla. 
+                    Etiam vestibulum imperdiet ex quis faucibus. In ultricies fringilla elit in faucibus. Proin venenatis dictum magna, eu rutrum ex maximus sit amet. Vivamus molestie a nunc id sodales. 
+                    In blandit a nisi a aliquam. Quisque facilisis tempus pretium.</p>
+                    <a href="index.html"><span class="link">Back to the Top</span></a>
+                </div>
+                <div id="box2" class="col-md-6 col-xs-12 jumbotron container"><h3 class="text-center">Beef</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat magna tincidunt massa dictum faucibus. Proin vel nulla pellentesque massa placerat tempus. 
+                        Suspendisse facilisis tellus nec egestas pulvinar. Nullam imperdiet ante dictum, ultrices libero id, eleifend erat. 
+                        Nunc vel lorem dolor. Integer ipsum augue, congue sit amet porta et, egestas eu nulla. 
+                        Etiam vestibulum imperdiet ex quis faucibus. In ultricies fringilla elit in faucibus. Proin venenatis dictum magna, eu rutrum ex maximus sit amet. Vivamus molestie a nunc id sodales. 
+                        In blandit a nisi a aliquam. Quisque facilisis tempus pretium.</p>
+                        <a href="index.html"><span class="link">Back to the Top</span></a>
+                </div>
+                <div id="box3" class="col-md-6 col-xs-12 jumbotron container"><h3 class="text-center">Sushi</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat magna tincidunt massa dictum faucibus. Proin vel nulla pellentesque massa placerat tempus. 
+                        Suspendisse facilisis tellus nec egestas pulvinar. Nullam imperdiet ante dictum, ultrices libero id, eleifend erat. 
+                        Nunc vel lorem dolor. Integer ipsum augue, congue sit amet porta et, egestas eu nulla. 
+                        Etiam vestibulum imperdiet ex quis faucibus. In ultricies fringilla elit in faucibus. Proin venenatis dictum magna, eu rutrum ex maximus sit amet. Vivamus molestie a nunc id sodales. 
+                        In blandit a nisi a aliquam. Quisque facilisis tempus pretium.</p>
+                        <a href="index.html"><span class="link">Back to the Top</span></a>
+                </div>
+            </div>
+        </header>
+
+        <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
     </body>
 </html>
