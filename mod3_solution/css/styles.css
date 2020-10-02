@@ -12,8 +12,8 @@ body {
     border-radius: 0px;
     background-color:lightskyblue;
     margin: 0px; 
-    border: 1px solid black;
-    padding-bottom: 20px;
+    border: 0px solid black;
+    padding-bottom: 0px;
     padding-top: .1em;
 }
 
@@ -45,6 +45,17 @@ body {
     padding-bottom: 0px;
     padding-right: 0px;
 }
+#nav-list {
+    margin-top: 0px;
+    border: 2px solid black;
+    margin-bottom: 0px;
+    margin-top: -5px;
+}
+
+.navbar-header {
+    border: 2px solid black;
+}
+
  #nav-menu {
      color: black;
      border: 1px solid black;
@@ -62,10 +73,11 @@ body {
     border: 2px solid black;
 }
 
-#header-nav {
+
+/* #header-nav {
     border: 2px solid black;
     height: auto;
-}
+} */
 
 .navbar-header button.navbar-toggle {
     clear: both;
@@ -143,7 +155,12 @@ body {
     #main-content #box1, #box2, #box3 {
         width: auto;
     }
-
+    #header-nav {
+        padding-bottom: 20px;
+    }
+    .navbar-header {
+        border: 0px solid black;
+    }
    
 }
 
@@ -170,7 +187,12 @@ body {
         /* margin-left: -75px; */
         margin: auto;
     }
-
+    #header-nav {
+        padding-bottom: 20px;
+    }
+    .navbar-header {
+        border: 0px solid black;
+    }
 }
 
 /********** Small devices only **********/
@@ -198,6 +220,12 @@ body {
     }
     .navbar-brand h1 {
         /* margin-left: -75px; */
+    }
+    #header-nav {
+        padding-bottom: 20px;
+    }
+    .navbar-header {
+        border: 0px solid black;
     }
 }
 
