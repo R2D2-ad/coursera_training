@@ -60,7 +60,7 @@ var switchMenuToActive = function () {
   }
 };
 
-// On page load (before images or CSS)   row 56
+// On page load (before images or CSS)   
 document.addEventListener("DOMContentLoaded", function (event) {  
 
 // TODO: STEP 0: Look over the code from
@@ -89,7 +89,7 @@ $ajaxUtils.sendGetRequest(
 // *** finish **
 
 
-// Builds HTML for the home page based on categories array  (row 85
+// Builds HTML for the home page based on categories array
 // returned from the server.
 function buildAndShowHomeHTML (categories) {
 
@@ -107,7 +107,7 @@ function buildAndShowHomeHTML (categories) {
        console.log(chosenCategoryShortName);
 
 
-      // TODO: STEP 3: Substitute {{randomCategoryShortName}} in the home html snippet with the            row47_script_1,row 77
+      // TODO: STEP 3: Substitute {{randomCategoryShortName}} in the home html snippet with the           
       // chosen category from STEP 2. Use existing insertProperty function for that purpose.
       // Look through this code for an example of how to do use the insertProperty function.
       // WARNING! You are inserting something that will have to result in a valid Javascript
@@ -141,7 +141,7 @@ function chooseRandomCategory (categories) {
 }
 
 
-// Load the menu categories view   row69
+// Load the menu categories view  
 dc.loadMenuCategories = function () {
   showLoading("#main-content");
   $ajaxUtils.sendGetRequest(
@@ -160,7 +160,7 @@ dc.loadMenuItems = function (categoryShort) {
 };
 
 
-// Builds HTML for the categories page based on the data       row 77
+// Builds HTML for the categories page based on the data      
 // from the server
 function buildAndShowCategoriesHTML (categories) {
   // Load title snippet of categories page
