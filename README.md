@@ -1,4 +1,6 @@
 # <sub>coursera_training_repository</sub>
+## <sub><sup>mod2_solution: <sup></sub> <sub><sup>https://r2d2-ad.github.io/coursera_training/mod2_solution/index.html </sup></sub>
+## <sub><sup>mod3_solution: <sup></sub> <sub><sup>https://r2d2-ad.github.io/coursera_training/mod3_solution/index.html </sup></sub>
 ## <sub><sup>mod5-solution:<sup></sub> <sub><sup>https://r2d2-ad.github.io/coursera_training/mod5-solution/index.html </sup></sub>
 
 
